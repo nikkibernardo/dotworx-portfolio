@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities */
+/* html, body, #root {
+  height: 100%;
+}
+body {
+  @apply text-white bg-black font-sans;
+} */
+
+/* #root {
+  height: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+body {
+  @apply text-gray-50 bg-black font-sans;
+}  */
+
+#root {
+  height: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem; /* Mobile: 1rem all sides */
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #root {
+    padding: 1rem 7rem;
+  }
+}
+
+body {
+  @apply text-gray-50 bg-black font-sans;
+}
