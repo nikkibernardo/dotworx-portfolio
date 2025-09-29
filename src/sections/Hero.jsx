@@ -39,7 +39,7 @@ export default function Hero(){
   };
 
   return (
-    <section id="home" className="py-24">
+    <section id="home" className="py-28">
       <div className="max-w-6xl mx-auto text-left">
         <div className="flex flex-col sm:flex-row sm:items-end gap-4">
           <h1 className="text-4xl sm:text-6xl leading-tight">we dotworx <br/>ideas into reality</h1>
@@ -58,10 +58,10 @@ export default function Hero(){
               <div className="absolute inset-0 bg-[#C4B5FD] transform translate-x-full translate-y-full group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500 ease-out rounded-2xl"></div>
               
               {/* Content */}
-              <span className="relative z-10 flex items-center gap-2 transition-colors duration-300 group-hover:text-black">
+              <a href="https://cal.com/dotworxxx/30min" target="_blank" rel="noopener noreferrer" className="relative z-10 flex items-center gap-2 transition-colors duration-300 group-hover:text-black">
                 schedule a free consultation
                 <GoArrowUpRight size={30} className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-black"/>
-              </span>
+              </a>
             </a>
           </div>
           

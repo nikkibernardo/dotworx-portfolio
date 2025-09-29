@@ -22,7 +22,7 @@ export default function Projects(){
       id: 2,
       image: cps,
       title: "Corporate Planning System",
-      description: "CPS is a customizable and scalable corporate planning and monitoring platform designed to help organizations create, manage, and monitor strategic plans while tracking progress toward goals. The system integrates generative AI to evaluate performance, generate insights, and provide data-driven recommendations for decision-making. Built with a secure, role-based access system, EuCorp caters to administrators and department heads, ensuring transparency and accountability across all organizational levels.",
+      description: "CPS is a secure, AI-powered platform for corporate planning and performance monitoring. It enables organizations to create strategic plans, track goals, and generate data-driven insights with role-based access for accountability.",
       demoLink: "https://portal.mseuf.edu.ph/cps",
       githubLink: "https://github.com/carlotesoro2003/cps-frontend",
       technologies: ["C# .Net", "Next.js", "TypeScript", "Tailwind CSS", "OpenAI"]
@@ -34,7 +34,7 @@ export default function Projects(){
       description: "Filheim's web CMS was built to reflect their brand: a luxury cabinetry studio redefining design through Filipino craftsmanship. The system offers a bespoke, personal platform to showcase their work as a soulful alternative to mainstream brands.",
       demoLink: "https://www.filheim.com/",
       githubLink: "https://github.com/jakebasa/filheim-cms",
-      technologies: ["Strapi", "Nextjs", "TypeScript", "Tailwind CSS", "Figma"]
+      technologies: ["Strapi", "Nextjs", "TypeScript", "Vercel", "Tailwind CSS", "Figma"]
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ export default function Projects(){
       description: "A modern social networking platform with real-time messaging, post sharing, and user engagement analytics.",
       demoLink: "https://www.sycipbuilders.com/",
       // githubLink: "#",
-      technologies: ["Webflow", "Figma"]
+      technologies: ["Webflow"]
     },
     {
       id: 5,
@@ -52,7 +52,7 @@ export default function Projects(){
       description: "A responsive portfolio website with smooth animations, project showcases, and contact integration.",
       demoLink: "https://dotworx.vercel.app/",
       githubLink: "https://github.com/nikkibernardo/dotworx-portfolio",
-      technologies: ["React", "Javascript", "Vercel", "Tailwind CSS", "EmailJS"]
+      technologies: ["React", "Javascript", "Vercel", "Tailwind CSS", "Cal.com"]
     },
     {
       id: 6,

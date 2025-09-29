@@ -1,4 +1,5 @@
 import React from 'react'
+import { GoArrowUpRight } from 'react-icons/go';
 import { IoMenu, IoClose } from "react-icons/io5";
 
 export default function Header() {
@@ -11,12 +12,20 @@ export default function Header() {
           </div>
 
           {/* Desktop Nav */}
-          <nav className="space-x-4 hidden md:flex">
+          <nav className="space-x-4 hidden md:flex items-center">
             <a href="#home" className="py-2 px-3 hover:underline">Home</a>
             <a href="#about" className="py-2 px-3 hover:underline">About</a>
             <a href="#services" className="py-2 px-3 hover:underline">Services</a>
-            <a href="#projects" className="py-2 px-3 hover:underline">Projects</a>
-            {/* <a href="#contact" className="py-2 px-3 hover:underline">Contact</a> */}
+            <a href="#projects" className="py-2 px-3 hover:underline ">Projects</a>
+            <a href="#" className="relative flex items-center gap-2 px-3 py-1.5 border-2 border-gray-500 text-gray-300 rounded-2xl text-md sm:text-lg group overflow-hidden transition-all duration-500 ease-out">
+              {/* Smooth background fill from bottom right */}
+              <div className="absolute inset-0 bg-[#C4B5FD] transform translate-x-full translate-y-full group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500 ease-out rounded-2xl"></div>
+              {/* Content */}
+              <a href="https://cal.com/dotworxxx/30min" target="_blank" rel="noopener noreferrer" className="relative z-10 flex items-center gap-1 transition-colors duration-300 group-hover:text-black">
+                Book a call
+                <GoArrowUpRight size={24} className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-black"/>
+              </a>
+            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -51,7 +60,15 @@ function MobileMenu() {
             <a href="#about" onClick={() => setOpen(false)} className="block px-4 py-3 hover:bg-gray-700 border-b border-gray-800">About</a>
             <a href="#services" onClick={() => setOpen(false)} className="block px-4 py-3 hover:bg-gray-700 border-b border-gray-800">Services</a>
             <a href="#projects" onClick={() => setOpen(false)} className="block px-4 py-3 hover:bg-gray-700 border-b border-gray-800">Projects</a>
-            {/* <a href="#contact" onClick={() => setOpen(false)} className="block px-4 py-3 hover:bg-gray-700">Contact</a> */}
+            <a href="#" className="relative flex items-center gap-2 px-3 py-1.5 border-2 border-gray-500 text-gray-300 rounded-2xl text-md sm:text-lg group overflow-hidden transition-all duration-500 ease-out">
+              {/* Smooth background fill from bottom right */}
+              <div className="absolute inset-0 bg-[#C4B5FD] transform translate-x-full translate-y-full group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500 ease-out rounded-2xl"></div>
+              {/* Content */}
+              <a href="https://cal.com/dotworxxx/30min" target="_blank" rel="noopener noreferrer" className="relative z-10 flex items-center gap-1 transition-colors duration-300 group-hover:text-black">
+                Book a call
+                <GoArrowUpRight size={24} className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-black"/>
+              </a>
+            </a>
           </div>
         </div>
       )}
