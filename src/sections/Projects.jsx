@@ -13,27 +13,27 @@ export default function Projects(){
       id: 1,
       image: niyoghub,
       title: "NiyogHub",
-      description: "A full-stack e-commerce solution with React and Node.js featuring payment integration, admin dashboard, and real-time inventory management.",
+      description: "A web and mobile application designed to connect coconut farmers in Quezon Province with the Philippine Coconut Authority (PCA), leveraging AI to enhance communication, support, and promote sustainable growth in the coconut agriculture sector",
       demoLink: "https://niyoghub.com/",
-      githubLink: "https://github.com/",
+      githubLink: "https://github.com/nikkibernardo/niyoghub-webuser-frontend",
       technologies: ["React","React Native", "Node.js", "MongoDB", "Express", "OpenAI", "Roboflow", "Socket.io",  "JWT", "Passport.js", "Cookie-parser",  "Google Maps API", "Leaflet"]
     },
     {
       id: 2,
       image: cps,
       title: "Corporate Planning System",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      description: "CPS is a customizable and scalable corporate planning and monitoring platform designed to help organizations create, manage, and monitor strategic plans while tracking progress toward goals. The system integrates generative AI to evaluate performance, generate insights, and provide data-driven recommendations for decision-making. Built with a secure, role-based access system, EuCorp caters to administrators and department heads, ensuring transparency and accountability across all organizational levels.",
       demoLink: "https://portal.mseuf.edu.ph/cps",
-      githubLink: "https://github.com/",
+      githubLink: "https://github.com/carlotesoro2003/cps-frontend",
       technologies: ["C# .Net", "Next.js", "TypeScript", "Tailwind CSS", "OpenAI"]
     },
     {
       id: 3,
       image: filheim,
       title: "Filheim",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and severe weather alerts.",
+      description: "Filheim's web CMS was built to reflect their brand: a luxury cabinetry studio redefining design through Filipino craftsmanship. The system offers a bespoke, personal platform to showcase their work as a soulful alternative to mainstream brands.",
       demoLink: "https://www.filheim.com/",
-      githubLink: "https://github.com/",
+      githubLink: "https://github.com/jakebasa/filheim-cms",
       technologies: ["Strapi", "Nextjs", "TypeScript", "Tailwind CSS", "Figma"]
     },
     {
@@ -42,7 +42,7 @@ export default function Projects(){
       title: "SycipBuilders",
       description: "A modern social networking platform with real-time messaging, post sharing, and user engagement analytics.",
       demoLink: "https://www.sycipbuilders.com/",
-      githubLink: "https://github.com/",
+      // githubLink: "#",
       technologies: ["Webflow", "Figma"]
     },
     {
@@ -50,17 +50,17 @@ export default function Projects(){
       image: dotworx,
       title: "Dotworx Portfolio",
       description: "A responsive portfolio website with smooth animations, project showcases, and contact integration.",
-      demoLink: "https://portfoliodemo.example.com",
-      githubLink: "https://github.com/",
-      technologies: ["Vue.js", "Firebase", "Vuex", "Tailwind CSS", "WebSocket"]
+      demoLink: "https://dotworx.vercel.app/",
+      githubLink: "https://github.com/nikkibernardo/dotworx-portfolio",
+      technologies: ["React", "Javascript", "Vercel", "Tailwind CSS", "EmailJS"]
     },
     {
       id: 6,
       image: pic2,
       title: "AI Chatbot",
       description: "An intelligent chatbot powered by machine learning with natural language processing and contextual understanding.",
-      demoLink: "https://chatdemo.example.com",
-      githubLink: "https://github.com/",
+      // demoLink: "#",
+      // githubLink: "#",
       technologies: ["Vue.js", "Firebase", "Vuex", "Tailwind CSS", "WebSocket"]
     }
   ];
